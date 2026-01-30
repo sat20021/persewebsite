@@ -1,9 +1,9 @@
 [build]
-  # No build command needed for static HTML
-  command = "echo 'No build required'"
+  # Build command for static HTML
+  command = "npm run build"
   
-  # Publish directory is the root (where index.html is)
-  publish = "."
+  # Publish directory is the build folder
+  publish = "build"
 
 [[redirects]]
   from = "/*"
